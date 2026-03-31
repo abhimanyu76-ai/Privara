@@ -1,0 +1,49 @@
+@layer utilities {
+  .mobile-card-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4;
+  }
+
+  .mobile-stat-grid {
+    @apply grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4;
+  }
+
+  .mobile-action-grid {
+    @apply grid grid-cols-1 lg:grid-cols-3 gap-3 sm:gap-4;
+  }
+
+  .mobile-card-padding {
+    @apply p-4 sm:p-5 lg:p-6;
+  }
+
+  .mobile-section-padding {
+    @apply px-2 sm:px-0;
+  }
+
+  .mobile-title {
+    @apply text-base sm:text-lg lg:text-xl;
+  }
+
+  .mobile-subtitle {
+    @apply text-xs sm:text-sm;
+  }
+
+  .mobile-body-text {
+    @apply text-xs sm:text-sm;
+  }
+
+  .mobile-button {
+    @apply h-11 sm:h-12 text-sm sm:text-base px-4 sm:px-6;
+  }
+
+  .mobile-icon-sm {
+    @apply w-4 h-4 sm:w-5 sm:h-5;
+  }
+
+  .mobile-icon-md {
+    @apply w-5 h-5 sm:w-6 sm:h-6;
+  }
+
+  .mobile-stack {
+    @apply flex flex-col sm:flex-row gap-3 sm:gap-4;
+  }
+}
